@@ -10,6 +10,7 @@
 
 .chats-page {
   position: absolute;
+  margin: 0;
   top: 0px;
   left: 0px;
   width: 100vw;
@@ -25,7 +26,7 @@
 .logo-tab {
   position: absolute;
   left: 22px;
-  top: 12px;
+  top: 18px;
   font-size: 32px;
   font-weight: 700;
   color: white;
@@ -33,7 +34,7 @@
 
 .logout-tab {
   position: absolute;
-  top: 22px;
+  top: 28px;
   right: 22px;
   color: white;
   cursor: pointer;
@@ -47,7 +48,8 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
+  background-image: url("/main.jpg");
+  background-size: cover;
   position: absolute;
   top: 0px;
   bottom: 0px;
